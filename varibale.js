@@ -21,7 +21,7 @@ console.log('My GPA is ' + gpa + '.'); // this way works for single quotes
 console.log(typeof age); // number
 console.log(typeof myName); // string
 
-console.log(myName + "is online: " + online); // this way works for double quotes
+console.log(myName + " is online: " + online); // this way works for double quotes
 
 console.log("My name is " + myName + "."); // this way works for double quotes
 
