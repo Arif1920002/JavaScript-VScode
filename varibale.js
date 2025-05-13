@@ -9,6 +9,12 @@ let myName = "Arif"; // string
 
 let online = true; // boolean
 
+//For webpage view
+let fullName = "Arif Hasan"; 
+let myAge = 25;
+let student = true;
+
+
 console.log(age);
 console.log(price);
 console.log(gpa);
@@ -25,3 +31,8 @@ console.log(myName + " is online: " + online); // this way works for double quot
 
 console.log("My name is " + myName + "."); // this way works for double quotes
 
+
+
+document.getElementById("p1").textContent = " My name is "+ fullName + ".";
+document.getElementById("p2").textContent = " I am " + myAge + " years old.";
+document.getElementById("p3").textContent = " I am a student: " + student + ".";
