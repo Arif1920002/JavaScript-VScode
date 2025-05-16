@@ -46,3 +46,12 @@ var result = 1 + 2 * (3 + 4);  // can't declare same variable more than once usi
 
 var result = 1 + 2 * 3 + 4 / (5 - 1) ** 2;
  console.log("Result of the expression 1 + 2 * 3 + 4 / (5 - 1) ** 2: " + result); // Output: 7.0
+
+
+let x = 5;  
+x++; // Increment x by 1
+console.log("Value of x after incrementing: " + x); // Output: 6
+
+let y = 10;
+y--; // Decrement y by 1
+console.log("Value of y after decrementing: " + y); // Output: 9
