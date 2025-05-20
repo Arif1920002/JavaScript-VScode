@@ -4,16 +4,9 @@ const PI = 3.14159;
 let radius;
 let circumference;
 
-
-document.getElementById()
-radius = Number(radius); // convert string to number
-
-
-
-circumference = 2 * PI * radius;
-
-document.getElementById("calculation").onclick = function() {
-    document.getElementById("result").innerHTML = "Circumference: " + circumference;
-    document.getElementById("calculation").style.display = "none";
-    document.getElementById("result").style.display = "block";
+document.getElementById("calculate").onclick = function() {
+    radius = document.getElementById("radius").value;
+    radius = Number(radius); // convert string to number
+    circumference = 2 * PI * radius;
+    console.log("The circumference is:", circumference);
 }
