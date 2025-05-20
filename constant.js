@@ -2,10 +2,18 @@
 
 const PI = 3.14159;
 let radius;
+let circumference;
+
+
+document.getElementById()
 radius = Number(radius); // convert string to number
 
-radius = window.prompt("Enter the radius of the circle: ");
 
-let circumference = 2 * PI * radius;
 
-console.log("The circumference is:", circumference);
+circumference = 2 * PI * radius;
+
+document.getElementById("calculation").onclick = function() {
+    document.getElementById("result").innerHTML = "Circumference: " + circumference;
+    document.getElementById("calculation").style.display = "none";
+    document.getElementById("result").style.display = "block";
+}
